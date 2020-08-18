@@ -1,0 +1,38 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+  font-family: 'Montserrat', sans-serif;  
+    position: relative;
+    background: linear-gradient(180deg, #B4F1E1, #FFE9C5);
+}
+
+
+#signup-title
+{
+    color: #EB6282;
+    text-transform: capitalize;
+    font-size: 55px;
+    font-weight: bold;
+}
+#home
+{
+    color: #EB6282;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+   hr {
+       display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+   #signup-title {
+       position: absolute;
+       top: 40%; 
+  }
+}

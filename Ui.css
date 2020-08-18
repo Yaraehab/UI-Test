@@ -1,0 +1,190 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+  font-family: 'Montserrat', sans-serif;  
+    position: relative;  
+}
+
+.navbar
+{
+    
+    background-color: rgba(0,0,0,0.0);
+  position: fixed;
+    z-index: 90;
+
+   
+}
+.navbar .navbar-brand
+{
+    color: #EB6282;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.navbar .nav-link
+{
+    color: #000;
+    font-size: 25px;
+}
+.navbar .form-control
+{
+    width: 500px;
+    background-color:#EAEAEA;
+    border: none;
+    position: relative;
+    font-size: 20px;
+}
+.navbar .form-inline .fas
+{
+    position: absolute;
+    right: 3%;
+    z-index: 500;
+    color: #6E6E6E;
+    font-size: 20px;
+}
+/* End of navbar*/
+#Home
+{
+    position: relative;
+   
+    
+}
+#Home .form-control
+{
+    background-color: #EAEAEA;
+    border: none;
+    color: #6E6E6E;
+    height: 60px;
+    border-radius: 13px;
+}
+select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none; }
+select::-ms-expand {
+        display: none;
+    }
+
+select + i.fas {
+        float: right;
+        margin-top: -40px;
+        margin-right: 10px;
+        pointer-events: none;
+        background-color: transparent;
+        color:black!important;
+        padding-right: 5px;
+        font-size: 30px;
+        color: #707070!important;
+    }
+
+   select option{
+       padding-right: 21px;
+   }
+/*#Home .form-group:active i
+{
+    transform: rotate(90deg);
+}*/
+#Home
+{
+    padding-top: 10%;
+    position: relative;
+}
+#Home .btns
+{
+   height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(180deg, #EB6282, #FA9090);
+    border: none; 
+    border-radius: 13px;
+    color: #fff!important;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}
+
+
+#Home .image-home
+{
+    
+    /*width: 360px;
+    height: 348px;*/
+}
+#Home .small-text
+{
+    text-align: center;
+}
+#Home .small-text h6
+{
+    color: #000;
+    font-size: 25px;
+}
+#Home .sup-title
+{
+ text-align: center;
+    color: #000;
+}
+@media only screen and (max-width: 1024px) {
+  #Home .btns {
+      position: absolute;
+    bottom: -230%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #Home .small-text  {
+      position: absolute;
+      top: 8%;
+      left: -10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #Home .image-home
+  {
+      
+      margin-top: 100px;
+  }
+}
+#full-background
+{
+    background-image: url(images/Path%2018.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    top: -20%;
+    right: -30%;
+    z-index: -1; 
+}
+/*@media only screen and (max-width: 1024px) {
+  #full-background
+  {
+      top: -2%;
+      right: -105%;
+      height: 110%;
+      width: 230%;
+      transform: rotate(1deg);
+      
+  }
+}*/
+
+@media only screen and (max-width: 1024px) {
+  #full-background
+  {
+      
+      background-image: url(images/Path%2017.png);
+      background-size: cover;
+      background-position: right;
+      position: absolute;
+      top: 0px;
+      right: -15px;
+      z-index: -1;
+      
+  }
+}
+

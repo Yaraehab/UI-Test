@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="boot1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="boot1/fontawesome-free-5.11.2-web/css/all.css">
+        <link rel="stylesheet" href="Ui.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">        
+    </head>
+    <body>
+       
+        <nav class="navbar navbar-expand-lg  ">
+  <a class="navbar-brand" href="#">ziri</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">find your home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Sell your home</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link " href="#">My account</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Quick Search" aria-label="Search " >
+        <i class="fas fa-search"></i>
+    </form>
+  </div>
+</nav>
+        <hr style="width: 90%; margin: auto; position: fixed; top: 15%; left: 2px">
+      
+        <section id="Home" >
+            
+            <div class="container-fluid  ">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <h1>Looking for a home?<br>
+                            You are in the right place.</h1>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-6 col-sm-12">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="What is your name?">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="What is your email?">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-lg-6 col-sm-12">
+                                    <select id="inputState" class="form-control">
+                                        <option selected>How many bedrooms?</option>
+                                        <option>...</option>
+                                    </select>
+                                    <i class="fas fa-angle-down fa-select"></i>
+                                </div>
+                            
+                                <div class="form-group col-lg-6 col-sm-12">
+                                    <select id="inputState" class="form-control">
+                                        <option selected>How many bathrooms?</option>
+                                        <option>...</option>
+                                    </select>
+                                    <i class="fas fa-angle-down fa-select"></i>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                            <div class="form-group col-lg-6 col-sm-12 ">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Create a password.">
+                            </div>
+                           
+                                <a href="signup.html" class="btns col-lg-6 col-sm-12" >find your home!</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 full-background">
+                        <div class="container">
+                            <div class="row ">
+                                <div class="cl-lg-12 col-sm-12 sup-title">
+                                    <h1 >Choose your style.</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <img class="image-home img-fluid " src="images/Barn.png">
+                                </div>
+                                <div class="col-lg-6 col-sm-12 small-text">
+                                    <h6 >Ranch</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    
+                    </div>
+                </div>
+            
+            </div>
+        
+            </section>
+       <section id="full-background"></section>
+       
+       
+         <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script>
+             
+                 $.fn.rotationInfo = function() {
+    var el = $(this),
+        tr = el.css("-webkit-transform") || el.css("-moz-transform") || el.css("-ms-transform") || el.css("-o-transform") || '',
+        info = {rad: 0, deg: 0};
+    if (tr = tr.match('matrix\\((.*)\\)')) {
+        tr = tr[1].split(',');
+        if(typeof tr[0] != 'undefined' && typeof tr[1] != 'undefined') {
+            info.rad = Math.atan2(tr[1], tr[0]);
+            info.deg = parseFloat((info.rad * 180 / Math.PI).toFixed(1));
+        }
+    }
+    return info;
+};
+                 
+        </script>-->
+    </body>
+
+
+
+</html>
